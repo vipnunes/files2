@@ -1,97 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>otavio.work.gd</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #121212;
-            color: #FFFFFF;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.2em;
-            margin-bottom: 2rem;
-        }
-        .button {
-            display: inline-block;
-            background-color: #1DB954;
-            color: #FFFFFF;
-            padding: 15px 25px;
-            text-decoration: none;
-            font-size: 1.2em;
-            border-radius: 30px;
-            transition: background-color 0.3s, transform 0.2s;
-        }
-        .button:hover {
-            background-color: #1AA34A;
-            transform: scale(1.05);
-        }
-    </style>
-    <script>
-        // Traduções
-        const translations = {
-            "pt-BR": {
-                title: "otavio.work.gd",
-                heading: "otavio.work.gd.",
-                paragraph: "Você precisará de acesso especial para publicar conteúdo aqui.",
-                button: "Entrar no site""
-            },
-            "es": {
-                title: "otavio.work.gd",
-                heading: "otavio.work.gd.",
-                paragraph: "Necesitará acceso especial para publicar contenido aquí.",
-                button: "Iniciar sesión en el sitio web"
-            },
-            "en": {
-                title: "otavio.work.gd",
-                heading: "otavio.work.gd.",
-                paragraph: "You will need special access to publish content here.",
-                button: "Log into the site"
-            }
-        };
-
-        // Detecta o idioma do navegador
-        function detectLanguage() {
-            const userLang = navigator.language || "en";
-            return translations[userLang] ? userLang : "en";
-        }
-
-        // Aplica as traduções
-        function applyTranslations(lang) {
-            const content = translations[lang];
-            document.title = content.title;
-            document.querySelector("h1").textContent = content.heading;
-            document.querySelector("p").textContent = content.paragraph;
-            document.querySelector(".button").textContent = content.button;
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-            const userLang = detectLanguage();
-            applyTranslations(userLang);
-        });
-    </script>
+  <link rel="shortcut icon" href="https://vipnunes.github.io/img/11zon_cropped(1)" type="image/x-icon">
+  <meta charset="UTF-8">
+  <title>Erro 404 - Página não encontrada</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #000000;
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+    .face {
+      font-size: 8rem;
+    }
+    .message {
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>otavio.work.gd.</h1>
-        <p>You will need special access to publish content here.</p>
-        <a href="https://github.com/vipnunes/files/blob/main/index.html" class="button">Log into the site/a>
-    </div>
+  <div class="face">¯\_( ͡❛ ͜ʖ ͡❛)_/¯</div>
+  <div class="message">Essa página não existe e/ou não foi encontrada ;)</div>
 </body>
 </html>
